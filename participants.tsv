@@ -1,0 +1,11 @@
+participant_id	age	sex	hand	weight	height	group	species	bci_experience
+sub-20	38	M	n/a	n/a	n/a	ALS	homo sapiens	n/a
+sub-21	63	F	n/a	n/a	n/a	ALS	homo sapiens	n/a
+sub-23	57	M	n/a	n/a	n/a	ALS	homo sapiens	n/a
+sub-24	56	M	n/a	n/a	n/a	ALS	homo sapiens	n/a
+sub-25	49	M	n/a	n/a	n/a	ALS	homo sapiens	n/a
+sub-3	44	F	n/a	n/a	n/a	ALS	homo sapiens	n/a
+sub-5	60	M	n/a	n/a	n/a	ALS	homo sapiens	n/a
+sub-6	59	M	n/a	n/a	n/a	ALS	homo sapiens	n/a
+sub-7	59	F	n/a	n/a	n/a	ALS	homo sapiens	n/a
+sub-8	62	F	n/a	n/a	n/a	ALS	homo sapiens	n/a
