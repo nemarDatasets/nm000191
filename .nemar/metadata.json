@@ -1,0 +1,98 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Boyla Mainsah": {},
+    "Chance Fleeting": {
+      "orcid": "0000-0002-6271-4952",
+      "affiliations": [
+        {
+          "name": "Duke University"
+        }
+      ]
+    },
+    "Thomas Balmat": {},
+    "Eric Sellers": {},
+    "Leslie Collins": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.13026/0byy-ry86",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000191",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000191",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "BigP3BCI Study F — 6x6 multi-paradigm, 3 sessions (10 healthy subjects)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "572.7 MB (271 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "BigP3BCI Study F is a derivative EEG dataset comprising P300-based brain-computer interface recordings from 10 ALS patients across 3 sessions using a 6x6 character grid speller paradigm. This dataset is processed from the source BigP3BCI dataset (DOI: 10.13026/0byy-ry86) using MOABB (Mother of All BCI Benchmarks v1.5.0). The dataset contains 16-channel EEG data sampled at 256 Hz with visual stimulus presentations designed for P300 event-related potential detection and BCI speller applications.",
+  "methods_description": "EEG data were acquired from ALS patients using a g.USBamp amplifier (g.tec) with 16 channels arranged in a standard 10-20 montage at a sampling rate of 256 Hz with 60 Hz line frequency filtering. Subjects performed a P300 speller task with visual stimulus presentations in a laboratory setting, with online feedback provided during the experimental protocol. Data were processed and organized into BIDS format using MOABB v1.5.0.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+    },
+    {
+      "term": "speller paradigm"
+    },
+    {
+      "term": "ALS"
+    },
+    {
+      "term": "derivative"
+    }
+  ],
+  "source_hash": "591009e3ac682674206fcfa926f7ccfc471ee33467dfa1bc9eebddb09cefdb75"
+}
