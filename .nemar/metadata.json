@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "BigP3BCI Study F — 6x6 multi-paradigm, 3 sessions (10 healthy subjects)",
-  "description": "BigP3BCI Study F is a derivative EEG dataset comprising P300-based brain-computer interface recordings from 10 ALS patients across 3 sessions using a 6x6 character grid speller paradigm. The dataset contains 16-channel EEG data sampled at 256 Hz with visual stimulus presentations annotated using HED 8.4.0 schema, designed for P300 event-related potential detection and BCI speller applications. This dataset represents Study F of the BigP3BCI dataset.",
-  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 16 channels in standard 10-20 montage at 256 Hz sampling rate. Subjects (ALS patients) performed a P300 speller task with visual stimulus presentations in a 6x6 character grid format. Data were processed and organized using MOABB (Mother of All BCI Benchmarks) version 1.5.0 according to BIDS 1.9.0 standards with HED 8.4.0 event annotations.",
+  "description": "This dataset is Study F of the bigP3BCI collection, a P300-based brain-computer interface speller dataset. It contains 16-channel EEG recorded at 256 Hz over three sessions per subject from 10 participants using a 6x6 character grid with multiple stimulus paradigms. Target and non-target events are annotated with HED tags. The data is a BIDS-formatted derivative of the PhysioNet bigP3BCI release, prepared through MOABB.",
+  "methods_description": "EEG was recorded with a g.USBamp (g.tec) amplifier from 16 channels placed in a standard 10-20 montage, sampled at 256 Hz. Participants performed a P300 speller task with a 6x6 grid and received online feedback. Calibration data were followed by test data.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -22,28 +22,25 @@
   },
   "keywords": [
     {
-      "term": "P300"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "event-related potential"
+      "term": "P300"
     },
     {
-      "term": "visual perception"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "speller paradigm"
+      "term": "speller"
     },
     {
-      "term": "ALS patients"
+      "term": "event-related potentials"
     },
     {
-      "term": "patient study"
+      "term": "amyotrophic lateral sclerosis"
     }
   ],
   "related_identifiers": [
@@ -79,7 +76,7 @@
     "eeg"
   ],
   "sizes": [
-    "2.0 GB (541 files)"
+    "1.90 GB (541 files)"
   ],
   "formats": [
     ".bdf",
